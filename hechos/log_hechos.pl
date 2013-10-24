@@ -1,5 +1,6 @@
 :- dynamic log/13.
 
+log(jueves, 24, 10, 2013, 12, 10, 0.7979700565338135, hambre, sugerencia, yo, tengo, hambre, []).
 log(martes, 8, 10, 2013, 12, 11, 3.8905599117279053, hambre, sugerencia, yo, tengo, hambre, []).
 log(martes, 8, 10, 2013, 12, 11, 4.021075963973999, hambre, sugerencia, yo, tengo, hambre, []).
 log(martes, 8, 10, 2013, 12, 50, 20.32394504547119, hambre, sugerencia, yo, quiero, comer, [pizza]).
@@ -359,4 +360,6 @@ log(martes, 8, 10, 2013, 12, 11, 4.021075963973999, hambre, sugerencia, yo, teng
 log(martes, 8, 10, 2013, 12, 50, 20.32394504547119, hambre, sugerencia, yo, quiero, comer, [pizza]).
 log(martes, 8, 10, 2013, 12, 50, 20.432404041290283, hambre, sugerencia, yo, quiero, comer, [pizza]).
 log(jueves, 24, 10, 2013, 11, 39, 1.9205639362335205, hambre, sugerencia, yo, tengo, hambre, []).
+log(jueves, 24, 10, 2013, 12, 10, 0.7979700565338135, hambre, sugerencia, yo, tengo, hambre, []).
+log(jueves, 24, 10, 2013, 12, 11, 36.74746108055115, hambre, sugerencia, yo, tengo, hambre, []).
 

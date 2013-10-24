@@ -1,5 +1,6 @@
 :- dynamic aprender/9.
 
+aprender(jueves, 24, 10, 2013, 12, 10, 0.8455359935760498, hambre, []).
 aprender(martes, 8, 10, 2013, 12, 11, 3.9234089851379395, hambre, []).
 aprender(martes, 8, 10, 2013, 12, 11, 4.035682916641235, hambre, []).
 aprender(martes, 8, 10, 2013, 12, 50, 20.338385105133057, hambre, [pizza]).
@@ -1082,4 +1083,6 @@ aprender(martes, 8, 10, 2013, 12, 11, 4.035682916641235, hambre, []).
 aprender(martes, 8, 10, 2013, 12, 50, 20.338385105133057, hambre, [pizza]).
 aprender(martes, 8, 10, 2013, 12, 50, 20.446760892868042, hambre, [pizza]).
 aprender(jueves, 24, 10, 2013, 11, 39, 1.9618160724639893, hambre, []).
+aprender(jueves, 24, 10, 2013, 12, 10, 0.8455359935760498, hambre, []).
+aprender(jueves, 24, 10, 2013, 12, 11, 36.76769208908081, hambre, []).
 

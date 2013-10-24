@@ -114,4 +114,5 @@ cargar_archivo([X|Y]):-
 	goo :-
   		write('Base de Conocimiento GOO'),nl,write('> '),
 		read_atomics(Input),
-		orden(Orden,Input,[]),Orden.			
+		orden(Orden,Input,[]),Orden,arg(6,Orden,Out),
+		nl,write(Out).		
