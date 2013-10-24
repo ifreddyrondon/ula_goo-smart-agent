@@ -1,0 +1,4 @@
+pregunta_probabilidad(P,Out):-
+	(P == comida ,read_from_string('comida(_,_)',Hecho),calculo_prob(Hecho),findall([Tipo,Prob],prob(comida,Tipo,Prob),O1),anidada_simple(O1,O2),list_string_espacios(O2,O3),concat('probabilidad,',O3,Out));	
+	(P == deporte ,read_from_string('deporte(_,_)',Hecho),calculo_prob(Hecho),findall([Tipo,Prob],prob(deporte,Tipo,Prob),O1),anidada_simple(O1,O2),list_string_espacios(O2,O3),concat('probabilidad,',O3,Out));
+	(P == tiempo ,read_from_string('tiempo(_,_,_,_)',Hecho),calculo_prob_tiempo(Hecho),findall([Tipo,Prob],prob(tiempo,Tipo,Prob),O1),anidada_simple(O1,O2),list_string_espacios(O2,O3),concat('probabilidad,',O3,Out)).	
