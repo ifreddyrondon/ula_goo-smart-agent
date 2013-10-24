@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Goo-inferencia-y-conocimiento-prolog : Inteligencia artificial, prolog, inferencia, base de conocimiento, swi prolog" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Goo-inferencia-y-conocimiento-prolog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/spantons/Goo-inferencia-y-conocimiento-prolog">View on GitHub</a>
+
+          <h1 id="project_title">Goo-inferencia-y-conocimiento-prolog</h1>
+          <h2 id="project_tagline">Inteligencia artificial, prolog, inferencia, base de conocimiento, swi prolog</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/spantons/Goo-inferencia-y-conocimiento-prolog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/spantons/Goo-inferencia-y-conocimiento-prolog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><strong>Motor de inferencias y base de conocimiento para un agente inteligente</strong></p>
+
+<h2>
+<a name="qu%C3%A9-es-esto" class="anchor" href="#qu%C3%A9-es-esto"><span class="octicon octicon-link"></span></a>¿Qué es esto?</h2>
+
+<p>Es el motor de inferencia de un agente inteligente basado en un mayordomo universitario y representación de la base de conocimiento a traves de Prolog.</p>
+
+<p>La eficacia a la hora de responder cualquier solicitud del usuario va a depender directamente de lo que el agente tenga como conocimiento.</p>
+
+<p>Este agente tendrá conocimiento cambiante y  muy expansivo con el tiempo ya que el usuario es un ser humano lleno de contradicciones y nuevas experiencias día a día.</p>
+
+<p>La eficacia a la hora de responder cualquier solicitud del usuario va a depender directamente de lo que el agente universitario tenga como conocimiento.</p>
+
+<p>Inducción : Dependiendo las actividades que se le informen al agente podrá predecir patrones de rutina.
+    *Si el lunes estudio en la noche ^ el martes estudio en la noche ^... el jueves estudio en la noche
+     ^ hoy es viernes =&gt; sugerir apartar agenda para estudiar en la noche.</p>
+
+<p>-Abducción: No le gusta la comida árabe ^ busca sitios de comida árabe =&gt; comerá con alguien que le gusta la comida árabe</p>
+
+<p>Como es de esperarse, un agente de esta categoría no podrá aprender todo desde cero, es por ello que al iniciar su ejecución le sean pre-cargados algunos valores básicos por parte del usuario (hechos/default_hechos.pl).</p>
+
+<p>Algunos casos el agente se encontrara en la situación de  no saber explícitamente cuales son todas las preferencias del usuario, por tanto deberá tomar definiciones a ciegas para poder ofrecerle sugerencias de actividades.</p>
+
+<h2>
+<a name="qu%C3%A9-necesito" class="anchor" href="#qu%C3%A9-necesito"><span class="octicon octicon-link"></span></a>¿Qué necesito?</h2>
+
+<p>Debes tener instalado <a href="http://www.swi-prolog.org/">SWI-Prolog</a></p>
+
+<h2>
+<a name="c%C3%B3mo-ejecuto-la-aplicaci%C3%B3n" class="anchor" href="#c%C3%B3mo-ejecuto-la-aplicaci%C3%B3n"><span class="octicon octicon-link"></span></a>¿Cómo ejecuto la aplicación?</h2>
+
+<ol>
+<li>Debes navegar en un terminal hasta la carpeta raiz del repositorio y correr '$ swipl'</li>
+<li>Compilar y cargar en memoria todas las sentencias de el Agente '[Goo].'</li>
+<li>Correr 'goo.' </li>
+<li>Ingresar alguna petición como 'tengo hambre', para ver todas las peticiones que se pueden hacer revisar el archivo (gramatica/gramatica.pl)</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Goo-inferencia-y-conocimiento-prolog maintained by <a href="https://github.com/spantons">spantons</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
